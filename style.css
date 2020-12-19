@@ -1,0 +1,79 @@
+body {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: absolute;
+    Top: 0;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    color: darkslategrey;
+}
+
+input {
+    height: 40px;
+    width: 500px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+}
+
+footer {
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+}
+
+a {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 14px;
+    color: darkslategrey;
+    text-decoration: none;
+}
+
+a:hover {
+    font-family: 'Noto Sans', sans-serif;
+    color: black;
+    text-decoration: underline;
+}
+
+.thumbnail {
+    height: 35px;
+    width: 35px;
+}
+
+
+#header-left {
+    position: absolute;
+    left: 0;
+}
+
+#header-right {
+    position: absolute;
+    right: 0;
+}
+
+#google-logo {
+    justify-content: center;
+    margin: 50%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#footer-left {
+    position: absolute;
+    left: 0;
+}
+
+#footer-right {
+    position: absolute;
+    right: 0;
+}

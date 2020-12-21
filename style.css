@@ -1,7 +1,3 @@
-html {
-    -webkit-appearance: none;
-}
-
 header {
     display: block;
     Top: 0;
@@ -12,15 +8,13 @@ main {
     margin: 200px;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 #google-logo {
     border: 0px;
     width: 272px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 input {
@@ -34,23 +28,13 @@ input {
 
 
 #button-container {
-    display: block;
+    display: flex;
     padding: 0px;
+    align-content: center;
     justify-content: center;
     margin: 0 auto 0 auto;
+    width: 700px;
 }
-
-.input-button {
-    background-color: #f8f9fa; 
-    border: 0px;
-    border-radius: 5px;
-    padding: 10px;
-    color: darkslategrey;
-    margin: 10px auto 10px auto;
-    width: 150px;
-    display: block;
-}
-
 
 footer {
     background-color: lightgrey;
@@ -75,14 +59,21 @@ a:hover {
 .thumbnail {
     height: 35px;
     width: 35px;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
 }
 
 #header-left {
     float: left;
+    width: 200px;
+    height: 50px;
+    align-content: center;
 }
 
 #header-right {
     float: right;
+    width: 200px;
 }
 
 ul {
@@ -92,19 +83,32 @@ ul {
 li {
     display: inline;
     padding: 5px 10px 5px 10px;
-    text-align: center;
+    vertical-align: middle;
 }
 
 #footer-left {
     float: left;
     margin-left: 10px;
-    margin-right: 10px;
     padding: 0px;
 }
 
 #footer-right {
     float: right;
-    margin-left: 10px;
     margin-right: 10px;
     padding: 0px;
+}
+
+.input-button {
+    background-color: #d3d3d3; 
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    color: darkslategray;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+#fred-pic {
+    border-radius: 50%;
 }

@@ -1,1 +1,1 @@
-TOP project for HTML and CSS practice.
+TOP project for HTML and CSS practice. No refactoring done, quick project as refresher for CSS and HTML basics. Centering issues with mobile / responsiveness, but not going to waste time to fix.

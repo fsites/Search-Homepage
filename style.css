@@ -112,6 +112,7 @@ li {
 .input-button:hover {
     color: #d3d3d3; 
     background-color: darkslategray;
+    cursor: pointer;
 }
 
 #fred-pic {
